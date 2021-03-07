@@ -65,10 +65,9 @@
                 occaecat deserunt magna quis veniam. </p>
             <div class="buttons">
                 <button
-                    class="text-base font-semibold bg-blue-500 p-5 rounded-full text-white mr-2 buttons__start">Start
-                    Free Trial</button>
+                    class="text-base font-semibold bg-blue-500 p-5 rounded-full text-white mr-2 buttons__start"> <a href="#trial" class="trial__anchor">Start Free Trial</a></button>
                 <button
-                    class="bg-white p-5 font-semibold rounded-full text-white font-sans text-base text-blue-400 buttons__login">Discover</button>
+                    class="bg-white p-5 font-semibold rounded-full text-white font-sans text-base text-blue-400 buttons__login"> <a href="#discover" class="discover__anchor">Discover</a></button>
             </div>
         </div>
     </div>
@@ -89,13 +88,13 @@
         <div class="flex justify-between m-auto max-w-screen-custom container">
             <div class="trial__info">
                 <img src="./image/login.png" alt="Login" class="mt-10 mb-5">
-                <h2 class="mb-3 text-2xl font-semibold font-sans">Set up FREE Trial Account</h2>
+                <h2 class="mb-3 text-2xl font-semibold font-sans"> Set up FREE Trial Account</h2>
                 <p class="text-base text-gray-400 max-w-screen-minlist pb-10">Duis pariatur ullamco Lorem magna duis
                     Lorem. Nisi quis sit Lorem cupidatat eiusmod ad et anim commodo dolor id voluptate cupidatat. Dolore
                     ut excepteur enim tempor. </p>
             </div>
             <form action="POST" class="flex ml-auto flex-col text-base text-gray-400 p-8 rounded-xl w-full sm:w-1/3 min-w-0 sm:min-w-505 form">
-                <label for="email" class="mb-3">Your Email</label>
+                <label for="email" class="mb-3" id="trial">Your Email</label>
                 <input type="text" id="email" placeholder="Write here your email address"
                     class="mb-5 w-full p-4 rounded-lg border-2 border-grey-400">
                 <label for="phoneNumber" class="mb-3">Your Phone number</label>
@@ -140,7 +139,7 @@
     <section class="flex flex-col bg-white max-w-screen-custom m-auto pt-10 pb-28 md:px-5 pl-5 lg:flex-row send_sms">
         <div class="mt-12 mr-12 justify-start outbound_sms">
             <img src="./image/messages.png" alt="Message" class="mt-10 mb-5">
-            <h2 class="mb-3 text-2xl font-semibold font-sans">Send SMS</h2>
+            <h2 class="mb-3 text-2xl font-semibold font-sans" id="discover">Send SMS</h2>
             <p class="text-base text-gray-400 max-w-screen-minlist pb-10">CSend the same message to multiple recipients in one scheduled event. If you want to send multiple messages to multiple recepients in one event, please use the bulk upload option in the main menu.</p>
         </div>
         <div class="pt-10 pb-5 pr-5 sm:px-7 rounded-xl sm:ml-40 max-w-screen-minlist message">
