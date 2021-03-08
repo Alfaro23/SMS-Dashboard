@@ -51,11 +51,11 @@ input[type=number] {
 
 .mobile-nav{
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 500px;
-    top: 180%;
-    left: -20px;
+    width: 100%;
+    top: 90px;
+    left: 0;
     padding-left: 20px;
 }
 .mobile-nav li:hover .subnav-mobile{
@@ -137,6 +137,9 @@ span{
     max-width: 500px;
     width: 100%;
     position: relative;
+}
+.openMenu{
+    display: none;
 }
 
 @media (max-width: 1150px){
